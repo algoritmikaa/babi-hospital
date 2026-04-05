@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Детская поликлиника №1 | Забота о здоровье детей</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Основной CSS файл -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Шапка с навигацией и переключателем темы -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-child"></i>
+        <span>Детская поликлиника №1</span>
+      </div>
+      <nav class="navbar">
+        <a href="#home" class="nav-link">Главная</a>
+        <a href="#services" class="nav-link">Услуги</a>
+        <a href="#doctors" class="nav-link">Врачи</a>
+        <a href="#contacts" class="nav-link">Контакты</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Переключить тему">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero-блок -->
+    <section id="home" class="hero section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Забота о здоровье ваших детей</h1>
+          <p class="hero-subtitle">Современные методы лечения, внимательные врачи и комфортная атмосфера. Здоровье ребёнка — наша главная ценность.</p>
+          <button class="btn btn-primary hero-btn">Записаться на приём <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="hero-image">
+          <i class="fas fa-hospital-user"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок услуг -->
+    <section id="services" class="services section">
+      <div class="container">
+        <h2 class="section-title">Наши услуги</h2>
+        <div class="cards-grid">
+          <div class="service-card glass-card">
+            <div class="card-icon"><i class="fas fa-syringe"></i></div>
+            <h3>Вакцинация</h3>
+            <p>Современные вакцины, индивидуальный график прививок, контроль педиатра.</p>
+          </div>
+          <div class="service-card glass-card">
+            <div class="card-icon"><i class="fas fa-stethoscope"></i></div>
+            <h3>Приём педиатра</h3>
+            <p>Профилактические осмотры, диагностика, лечение детских болезней.</p>
+          </div>
+          <div class="service-card glass-card">
+            <div class="card-icon"><i class="fas fa-flask"></i></div>
+            <h3>Анализы</h3>
+            <p>Лабораторная диагностика: кровь, моча, аллергопробы — быстро и точно.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок врачей -->
+    <section id="doctors" class="doctors section">
+      <div class="container">
+        <h2 class="section-title">Лучшие врачи</h2>
+        <div class="cards-grid">
+          <div class="doctor-card glass-card">
+            <div class="doctor-avatar">АИ</div>
+            <h3>Анна Иванова</h3>
+            <p class="doctor-spec">Педиатр, стаж 10 лет</p>
+            <p class="doctor-desc">Внимательный подход, опыт в лечении детей от 0 до 18 лет.</p>
+          </div>
+          <div class="doctor-card glass-card">
+            <div class="doctor-avatar">ЕП</div>
+            <h3>Елена Петрова</h3>
+            <p class="doctor-spec">Детский невролог, стаж 8 лет</p>
+            <p class="doctor-desc">Диагностика и коррекция нервных расстройств, забота о развитии.</p>
+          </div>
+          <div class="doctor-card glass-card">
+            <div class="doctor-avatar">ДК</div>
+            <h3>Дмитрий Комаров</h3>
+            <p class="doctor-spec">Детский хирург, стаж 12 лет</p>
+            <p class="doctor-desc">Плановые и экстренные операции, минимально инвазивные методики.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Блок отзывов -->
+    <section class="testimonials section">
+      <div class="container">
+        <h2 class="section-title">Отзывы родителей</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial-card glass-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="testimonial-text">Отличная поликлиника! Врачи внимательные, запись удобная. Сыну очень понравилось, теперь не боится походов к доктору.</p>
+            <div class="testimonial-author">— Мария</div>
+          </div>
+          <div class="testimonial-card glass-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="testimonial-text">Быстро сдали анализы, получили результаты на следующий день. Современное оборудование, чистота. Рекомендуем!</p>
+            <div class="testimonial-author">— Алексей</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Футер с контактами -->
+  <footer id="contacts" class="footer">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <div class="footer-logo">
+          <i class="fas fa-heartbeat"></i>
+          <span>Детская поликлиника №1</span>
+        </div>
+        <p class="footer-text">Заботимся о самом важном — здоровье ваших детей.</p>
+      </div>
+      <div class="footer-contacts">
+        <h4>Контакты</h4>
+        <p><i class="fas fa-phone-alt"></i> +7 (123) 456-78-90</p>
+        <p><i class="fas fa-map-marker-alt"></i> г. Москва, ул. Детская, д. 1</p>
+        <p><i class="fas fa-envelope"></i> info@childrenclinic.ru</p>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2025 Детская поликлиника №1. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript для переключения темы и localStorage -->
+  <script>
+    (function() {
+      const toggleBtn = document.getElementById('theme-toggle');
+      const body = document.body;
+      const sunIcon = toggleBtn.querySelector('.fa-sun');
+      const moonIcon = toggleBtn.querySelector('.fa-moon');
+
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark') {
+        body.classList.add('dark');
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'inline-block';
+      } else {
+        sunIcon.style.display = 'inline-block';
+        moonIcon.style.display = 'none';
+      }
+
+      function toggleTheme() {
+        if (body.classList.contains('dark')) {
+          body.classList.remove('dark');
+          localStorage.setItem('theme', 'light');
+          sunIcon.style.display = 'inline-block';
+          moonIcon.style.display = 'none';
+        } else {
+          body.classList.add('dark');
+          localStorage.setItem('theme', 'dark');
+          sunIcon.style.display = 'none';
+          moonIcon.style.display = 'inline-block';
+        }
+      }
+
+      toggleBtn.addEventListener('click', toggleTheme);
+    })();
+  </script>
+</body>
+</html>
